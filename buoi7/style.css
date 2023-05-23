@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: darkgray;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .list {
+    display: flex;
+}
+.list {
+    justify-content: space-between;
+    align-items: center;
+}
+.body {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+}
+
+.table {
+    width: 25vw;
+    height: calc(100vh - 100px);
+    background-color: bisque;
+    position: sticky;
+    top: 70px;
+}
+
+.content {
+    width: 75vw;
+    height: 100%;
+    background-color: crimson;
+}
+
+/* root va child = hay dung */
+/* .root,
+.child {
+    color: red;
+} */
+
+/* div co class la child */
+/* div.child {
+    color: blue;
+} */
+
+/* moi thu trong class = hay dung*/
+/* .root .child {
+    color: blueviolet;
+} */
+
+/* chi lay thag con dau tien, k lay chau chat chut chit = hay dung*/
+/* .root>.child {
+    color: chartreuse;
+} */
+
+/* ae ruot - lay thag ngang hang la the p o duoi*/
+/* .root+p {
+    color: maroon;
+} */
+/* toan bo thag cung cap o duoi.  */
+/* .root~p {
+    color: dodgerblue;
+} */
+/* a:link, a:hover, a:first-child, a:active , a:blank, a:checked ,....*/
+/* a:invalid dung dinh dang, k dung se tro lai ban dau */
+/* :not(p) nhung thagn dek phai p se doi mau - he p fai duoc css vao rui nha */
+/* p {
+    color: aquamarine;
+}
+:not(p) {
+    color:slategrey;
+} */
+/* li:nth-child(1/2/3/4/5....../n) cho vao thag con so may (con trong con cung la so do)*/
+
+/* opaicity - rgba */
+/* box-suzing: border-box = reset borderbox */
