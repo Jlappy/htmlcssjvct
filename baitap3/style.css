@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+.header__header {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+    top: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background-color: coral;
+    width: 20vw;
+    height: 100vh;
+    position: sticky;
+    left: 0px;
+}
+
+.content {
+    background-color: rgb(23, 147, 156);
+    width: 80vw;
+    height: 100vh;
+}
