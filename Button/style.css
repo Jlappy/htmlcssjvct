@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 12px 38px;
+    border-radius: 50px;
+    transition: opacity .2s ease;
+}
+.btn + .btn {
+    margin-left: 19px;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+.btn--succes {
+    background-color: blue ;
+}
+
+.btn--warn {
+    background-color: yellowgreen;
+}
+
+.btn--danger {
+    background-color: red;
+}
